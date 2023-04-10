@@ -1,1 +1,1 @@
-currency converter (currently under development)
+currency converter (work in progress)
