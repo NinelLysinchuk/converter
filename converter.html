@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="converter.css">
+    <title>Converter</title>
+</head>
+<body>
+<div class="container">
+    <div class="container__converter">
+        <div class="converter">
+            <div class="converter__field">
+                <input type="text" class="converter__convert converter__convert-first" value="00.00" id="EUR">
+                <span class="converter__currency" > EUR </span>
+            </div>
+            <div class="converter__switcher" onclick='switchFields()'>
+                <img src="https://finance.liga.net/design/images/icons/converter-min-arr.png" class="switcher">
+            </div>
+            <div class="converter__field">
+                <input type="text" class="converter__convert converter__convert-second" value="00.00" id="UAH">
+                <span class="converter__currency"> UAH </span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="converter.js"></script>
+</html>
